@@ -1,5 +1,5 @@
 #Cafeteria
-
+#Updated what the methods will return and committed separately
 Values:
 size = 100
 human_capacity = 75
@@ -7,7 +7,7 @@ light = true
 color = "Orange"
 
 Methods:
-renovate_method [Modifies the size attribute]
-fill_room [Modifies the capacity attribute]
-light_switch_method[Modifies the light_room attribute]
-paint_method [modifies the color attribute]
+renovate_method (100 + 50 = 150)
+fill_room (75 / 25  = 3 )
+light_switch_method(if light != 1, light = false, else if light == 0, light = true. )
+paint_method(puts "The color of this room is now blue")
