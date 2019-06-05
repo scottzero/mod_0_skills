@@ -1,0 +1,13 @@
+#Room (Class in a school)
+
+Attributes:
+size(integer)
+human_capacity(integer)
+light(boolean)
+color(string)
+
+Methods:
+renovate_room(renovate_method())
+fill_room(current_room_capacity/total_room_capacity)
+light_room(light_switch_method())
+paint_room(paint_method)

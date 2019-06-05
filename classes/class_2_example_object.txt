@@ -1,0 +1,13 @@
+#Cafeteria
+
+Values:
+size = 100
+human_capacity = 75
+light = true
+color = "Orange"
+
+Methods:
+renovate_method [Modifies the size attribute]
+fill_room [Modifies the capacity attribute]
+light_switch_method[Modifies the light_room attribute]
+paint_method [modifies the color attribute]
