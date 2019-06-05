@@ -1,0 +1,14 @@
+#BicPen (Not clickable)
+
+Values:
+total_ink_capacity = 50%
+ink_Color = 'Red'
+erasable = False
+pen_cap_sealable = True
+
+Results:
+
+total_ink_capacity(100 / 2 = 50 )
+ink_color(puts "The color of this ink is Red.")
+erasable(if ink_color != 0 then, put false, else, put true)
+pen_cap_sealable(if pen_cap_sealable == true, put true)

@@ -1,0 +1,13 @@
+#Pen (A class that exists in a school)
+
+Attributes:
+total_ink_capacity(integer)
+ink_Color(String)
+erasable(boolean)
+pen_cap_sealable(boolean)
+
+Methods:
+calculate_percent_full(current_ink_capacity/total_ink_capacity)[Uses total_ink_capacity]
+dispense_ink(write_method()) [uses ink_color]
+erase_ink(erase_method()) [uses erasable]
+seal(seal_pen_method()) [uses pen_cap_sealable]
