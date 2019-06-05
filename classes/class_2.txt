@@ -1,5 +1,5 @@
 #Room (Class in a school)
-
+#Updated to commit file separately
 Attributes:
 size(integer)
 human_capacity(integer)
@@ -7,7 +7,7 @@ light(boolean)
 color(string)
 
 Methods:
-renovate_room(renovate_method())
-fill_room(current_room_capacity/total_room_capacity)
-light_room(light_switch_method())
-paint_room(paint_method)
+renovate_room(renovate_method())[Modifies the size attribute]
+fill_room(current_room_capacity/total_room_capacity)[Modifies the capacity attribute]
+light_room(light_switch_method())[Modifies the light_room attribute]
+paint_room(paint_method)[modifies the color attribute]
